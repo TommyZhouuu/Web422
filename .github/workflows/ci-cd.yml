@@ -2,11 +2,11 @@ name: CI/CD Pipeline
 
 on:
   push:
-    branches:
-      - master
+    branches: 
+      - main       # use "main" if your branch is named "main"
   pull_request:
     branches:
-      - master
+      - main
 
 jobs:
   build:
